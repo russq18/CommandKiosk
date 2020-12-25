@@ -19,4 +19,4 @@ Project is created with:
 
 To get started with Blazor, follow the instructions on https://aka.ms/blazor-getting-started.
 
-After you finish, you can clone this repo locally :)
+After you finish, you can clone this repo locally :) Happy Coding
