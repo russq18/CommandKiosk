@@ -1,0 +1,30 @@
+﻿<div class="wrapper">
+    <div id="kiosk_sidebar">
+        <div>
+            <span class="dot">RQ</span>
+        </div>
+        <ul class="kiosk-Options"  @onclick="ToggleNavMenu">
+            <li>
+                <NavLink href="" class="nav-tab" Match="NavLinkMatch.All" >
+                    <img src="/Images/WhiteSummary.png" class="nav-Image_unselected" />
+                </NavLink>
+            </li>
+            <li>
+                <NavLink href="counter" class="nav-tab">
+                    <img src="/Images/WhiteIcon.png" class="nav-Image_unselected" />
+                </NavLink>
+            </li>
+        </ul>
+    </div>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}
