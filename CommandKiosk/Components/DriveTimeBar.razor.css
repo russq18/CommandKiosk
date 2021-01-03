@@ -7,3 +7,17 @@
     width: 62.5vw;
     height: 28vh;
 }
+
+ul.drivetimes {
+    position: relative;
+    top: 10%;
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0px;
+}
+
+    ul.drivetimes li {
+        float: left;
+        padding: .5vh 1.25vw;
+    }

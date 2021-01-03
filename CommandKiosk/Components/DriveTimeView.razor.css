@@ -1,0 +1,60 @@
+﻿.driveTimeView_body {
+    background: #B881FF;
+    border-radius: 10.8438px;
+    width: 13vw;
+    height: 22vh;
+}
+
+.driveTimeView_header {
+    background: #A25BFE;
+    border-radius: 10.8438px 10.8438px 0px 0px;
+    width: 13vw;
+    height: 4vh;
+}
+
+    .driveTimeView_header label {
+        font-family: Roboto Condensed, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1vw;
+        display: inline-grid;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding: .25vh .25vw;
+    }
+
+.timeToDestination {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .025vw;
+}
+.timeToDestinationHoursOrMinutes {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .008vw;
+}
+.destinationName {
+    font-family: Roboto Condensed, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .01vw;
+    display: inline-grid;
+    align-items: start;
+    text-align: start;
+    text-decoration-color: white
+}
+.destinationNickName {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+.trafficLabel {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
